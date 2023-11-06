@@ -1,7 +1,7 @@
 package com.example.membershipservice.membership.adapter.out.persistence;
 
 import com.example.membershipservice.membership.application.port.out.RegisterMembershipPort;
-import com.example.membershipservice.membership.common.PersistenceAdapter;
+import com.example.membershipservice.common.PersistenceAdapter;
 import com.example.membershipservice.membership.domain.Membership;
 import lombok.RequiredArgsConstructor;
 

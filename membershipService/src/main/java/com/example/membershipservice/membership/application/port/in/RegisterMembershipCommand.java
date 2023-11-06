@@ -1,6 +1,6 @@
 package com.example.membershipservice.membership.application.port.in;
 
-import com.example.membershipservice.membership.common.SelfValidating;
+import com.example.membershipservice.common.SelfValidating;
 import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

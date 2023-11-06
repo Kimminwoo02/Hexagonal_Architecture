@@ -1,4 +1,4 @@
-package com.example.membershipservice.membership.common;
+package com.example.membershipservice.common;
 
 import org.springframework.core.annotation.AliasFor;
 import org.springframework.stereotype.Component;

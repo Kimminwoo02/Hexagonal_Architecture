@@ -1,10 +1,14 @@
-package com.example.membershipservice.membership.common;
+package com.example.membershipservice.common;
+
+
 
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
 import javax.validation.Validation;
 import javax.validation.ValidatorFactory;
-import javax.xml.validation.Validator;
+import javax.validation.Validator;
+
+
 
 import java.util.Set;
 

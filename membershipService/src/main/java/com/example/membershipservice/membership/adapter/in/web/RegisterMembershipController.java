@@ -2,10 +2,9 @@ package com.example.membershipservice.membership.adapter.in.web;
 
 import com.example.membershipservice.membership.application.port.in.RegisterMembershipCommand;
 import com.example.membershipservice.membership.application.port.in.RegisterMembershipUseCase;
-import com.example.membershipservice.membership.common.WebAdapter;
+import com.example.membershipservice.common.WebAdapter;
 import com.example.membershipservice.membership.domain.Membership;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -35,7 +34,7 @@ public class RegisterMembershipController {
                 .build();
 
 
-        registerMembershipUseCase.registerMembership(command);
+        return registerMembershipUseCase.registerMembership(command);
     }
 
 
