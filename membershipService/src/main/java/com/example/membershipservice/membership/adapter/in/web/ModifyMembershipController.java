@@ -26,7 +26,7 @@ public class ModifyMembershipController {
               .isCorp(request.isCorp())
               .build();
       return ResponseEntity.ok(modifyMembershipUseCase.modifyMembership(command));
-      return null;
+
   }
 
 }

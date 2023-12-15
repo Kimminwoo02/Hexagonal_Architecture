@@ -29,6 +29,7 @@ public class ModifyMembershipService implements ModifyMembershipUseCase {
                 new Membership.MembershipIsCorp(command.isCorp()),
                 new Membership.MembershipIsValid(command.isValid())
         );
-        return membershipMapper.mapToDomainEntity(jpaEntity);
+        return null;
+                //membershipMapper.mapToDomainEntity(jpaEntity);
     }
 }
